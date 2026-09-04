@@ -1,0 +1,59 @@
+# KiCad local/session files
+*.kicad_prl
+*.kicad_prl-bak
+*.lck
+fp-info-cache
+sym-lib-table~
+fp-lib-table~
+*-bak
+*.bak
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad generated recovery/rescue data
+**/*-rescue.lib
+**/*-rescue.dcm
+**/*-rescue.kicad_sym
+**/*-backups/
+**/~*.lck
+
+# Manufacturing/export output (keep source design files in Git)
+gerbers/
+gerber/
+drill/
+fab/
+fabrication/
+pick-and-place/
+3dmodels/
+*.gbr
+*.drl
+*.pos
+*.csv
+
+# Generated renders and local media exports
+render.*
+renders/
+exports/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+*.bak
+
+
+# KiCad history folders
+.history/
