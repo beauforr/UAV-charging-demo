@@ -1,0 +1,137 @@
+(footprint "SJ_2S-NO"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Small solder jumper with no paste layer so it will open after reflow.")
+	(property "Reference" "REF**"
+		(at -0.908 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "436e80f4-3772-4968-8ec5-58715b06198d")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SJ_2S-NO"
+		(at -0.908 1.651 0)
+		(layer "F.Fab")
+		(uuid "7c43b4f7-2fc3-4f5e-9d7a-a6fe777cdb49")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52055c70-3e22-4630-b787-482e39702101")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "580591e5-4656-406c-b869-d51d9e0373ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -1)
+		(end 0.8 -1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d46fce5-87d3-442f-919e-2ad2595a63d5")
+	)
+	(fp_line
+		(start 0.8 1)
+		(end -0.8 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "318d2515-dd2f-4b12-84d3-317b029d936a")
+	)
+	(fp_arc
+		(start -1 -0.7)
+		(mid -0.962132 -0.891421)
+		(end -0.8 -1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7beea5c9-8788-4639-860e-df53a4d6780c")
+	)
+	(fp_arc
+		(start -0.8 1)
+		(mid -0.962132 0.891421)
+		(end -1 0.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "307ce9c7-5679-4946-b0e1-d84b67f24ec7")
+	)
+	(fp_arc
+		(start 0.8 -1)
+		(mid 0.962132 -0.891421)
+		(end 1 -0.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa829ccb-e965-4f40-9252-8706f4c0362e")
+	)
+	(fp_arc
+		(start 1 0.7)
+		(mid 0.962132 0.891421)
+		(end 0.8 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f7b39f8-76f2-44ac-a6a5-8a6d7858e070")
+	)
+	(pad "1" smd rect
+		(at -0.45 0)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "dd9b6dbc-583a-47a0-96a7-62c08051b53e")
+	)
+	(pad "2" smd rect
+		(at 0.45 0)
+		(size 0.635 1.27)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "edc4a365-bbb2-4f82-80c2-a5e0de057e72")
+	)
+	(embedded_fonts no)
+)

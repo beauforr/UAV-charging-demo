@@ -1,0 +1,211 @@
+(footprint "E5-10,5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ELECTROLYTIC CAPACITOR\n\ngrid 5.08 mm, diameter 10.5 mm")
+	(property "Reference" "REF**"
+		(at 4.699 -2.7432 0)
+		(layer "F.SilkS")
+		(uuid "85f41704-f49b-46bb-8267-646bcb63184a")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "E5-10,5"
+		(at -3.1242 3.2258 0)
+		(layer "F.Fab")
+		(uuid "14bfd671-1ed7-4385-b29e-7a6540525ef7")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd75f7e3-6ab7-4edc-be94-538b84a95bcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad86b20d-f7ae-4ea0-aaf0-74796b08cae4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 -1.651)
+		(end -3.81 -0.889)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b2a5aee-b1fa-4ce9-878e-96223bdca66a")
+	)
+	(fp_line
+		(start -3.429 -1.27)
+		(end -4.191 -1.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d08a45d-56a7-4be9-8c6a-9cd4aa288e8f")
+	)
+	(fp_line
+		(start -1.143 0)
+		(end -0.889 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "accfb0a6-a4e8-4079-9758-171bca15f3e0")
+	)
+	(fp_line
+		(start -0.889 -1.143)
+		(end -0.889 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4550b761-7e86-4074-9b3d-602492015f3b")
+	)
+	(fp_line
+		(start -0.889 0)
+		(end -0.889 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d0d6322-b25a-49da-b739-124e2f6c4ba0")
+	)
+	(fp_line
+		(start -0.889 1.143)
+		(end -0.254 1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1232142-b716-4c38-b93a-d9406aa23963")
+	)
+	(fp_line
+		(start -0.254 -1.143)
+		(end -0.889 -1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43127af1-87e1-4064-ad23-5b7caa06eb20")
+	)
+	(fp_line
+		(start -0.254 1.143)
+		(end -0.254 -1.143)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27ea8256-53b6-419f-b937-7ce73e938dcd")
+	)
+	(fp_line
+		(start 0.635 0)
+		(end 1.143 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d5e225f-050a-42a3-84fe-ed0600fb44d1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4b938bbf-d746-4be7-8987-b99c91f74f38")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 1.143) (xy 0.889 1.143) (xy 0.889 -1.143) (xy 0.254 -1.143)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "793b68fb-aae5-44cd-9eec-1b34411f2af5")
+	)
+	(fp_line
+		(start -1.651 0)
+		(end -1.143 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b07423f-6bab-4bdc-8cb5-54b0b0faccbd")
+	)
+	(fp_line
+		(start 1.143 0)
+		(end 1.651 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "965fa21e-8c14-426b-a0f0-767ba359809c")
+	)
+	(pad "+" thru_hole circle
+		(at -2.54 0)
+		(size 2.54 2.54)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "f551c6f8-1022-4804-8769-209916875b54")
+	)
+	(pad "-" thru_hole roundrect
+		(at 2.54 0)
+		(size 2.54 2.54)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "1a541f1b-8d86-44c8-a295-8126726003a6")
+	)
+	(embedded_fonts no)
+)
